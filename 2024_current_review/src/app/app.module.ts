@@ -42,6 +42,7 @@ import {ConsentComponent} from './privacy_consent/consent.component'
 import { ConsentService } from './privacy_consent/consent.service';
 import { TermsPluginLoaderService } from './privacy_consent/terms-plugin-loader.service';
 import { WinnerModal } from './shared/winner_modal/winner_modal.component';
+import { LandingComponent } from './components/landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -78,7 +79,8 @@ import { WinnerModal } from './shared/winner_modal/winner_modal.component';
     Winners,
     TrackWinners,
     ConsentComponent,
-    WinnerModal
+    WinnerModal,
+    LandingComponent
     // PrivacyConsentComponent,
     
   ],

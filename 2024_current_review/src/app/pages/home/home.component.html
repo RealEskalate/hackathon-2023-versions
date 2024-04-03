@@ -1,6 +1,6 @@
 <section
   id="home"
-  class="bg-[#002145] md:bg-center md:bg-no-repeat text-gray-600 flex lg:pb-16  max-md:bg-hero2 max-md:bg-cover max-md:bg-fixed max-md:bg-center max-md:bg-no-repeat rounded-bl-3xl sm:min-h-screen body-font z-0 relative"
+  class="bg-black md:bg-center md:bg-no-repeat text-gray-600 flex lg:pb-16  max-md:bg-hero2 max-md:bg-cover max-md:bg-fixed max-md:bg-center max-md:bg-no-repeat rounded-bl-3xl sm:min-h-screen body-font z-0 relative"
 >
 
   <div class="  w-full z-3">
@@ -45,7 +45,8 @@
         </svg>
       </div>
       <!-- bg-[#002145] -->
-      <div class="md:h-[90vh] max-md:mt-12 m-auto flex justify-center mt-20">
+      <app-landing></app-landing>
+      <div class="min-h-[90vh] m-auto flex justify-center items-center">
         <div
         id="home_component"
           class="p-3 relative flex flex-col max-md:justify-between md:flex-row justify-center"
@@ -57,7 +58,7 @@
             <div >
               <h1
               [ngClass]="{ 'heading': animated }"
-                class="opacity-0 px-2 text-left font-poppins max-md:text-2xl sm:text-[50px] max-sm:font-medium font-bold text-gray-200 rounded"
+                class="opacity-0 px-2 text-left font-poppins text-xl md:text-4xl lg:text-5xl font-bold text-gray-200 rounded"
               >
               A2SV Hackathon, 2023
               </h1>
